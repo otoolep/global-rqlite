@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PUBLIC_IP=`curl http://169.254.169.254/latest/meta-data/public-ipv4`
-LOCAL_IP=`curl http://169.254.169.254/latest/meta-data/local-ipv4`
+PUBLIC_IP=`curl -s http://169.254.169.254/latest/meta-data/public-ipv4`
+LOCAL_IP=`curl -s http://169.254.169.254/latest/meta-data/local-ipv4`
 
 function start_follower {
     if [ -z "$1" ]; then
