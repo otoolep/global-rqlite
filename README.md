@@ -6,3 +6,5 @@ bash < <(curl -s https://raw.githubusercontent.com/otoolep/global-rqlite/master/
 wget https://raw.githubusercontent.com/otoolep/global-rqlite/master/aliases.sh
 source aliases.sh
 ```
+
+(c) 2016-2018 Philip O'Toole http://www.philipotoole.com
